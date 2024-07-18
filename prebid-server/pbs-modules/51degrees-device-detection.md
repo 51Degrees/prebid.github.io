@@ -49,7 +49,6 @@ The module operates **fully autonomously and does not make any requests to any c
 
 The 51Degrees module operates using a data file. You can get started with a **free** Lite data file that can be downloaded here: [51Degrees-LiteV4.1.hash](https://github.com/51Degrees/device-detection-data/blob/main/51Degrees-LiteV4.1.hash).  The Lite file detects limited device information, for more in-depth device data, please contact 51Degrees: [https://51degrees.com/contact-us](https://51degrees.com/contact-us?ContactReason=Free%20Trial).
 
-
 Put the data file in a file system location writable by the system account that is running the Prebid Server module and specify that directory location in the configuration parameters. The location needs to be writable if you would like to enable [automatic data file updates](https://51degrees.com/documentation/_features__automatic_datafile_updates.html).
 
 ### Execution Plan
