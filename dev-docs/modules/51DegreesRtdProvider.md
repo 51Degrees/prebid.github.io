@@ -208,7 +208,7 @@ Two limitations follow from consuming the page integration directly:
 | params | Object | | |
 | params.resourceKey | String | Your 51Degrees Cloud Resource Key | |
 | params.onPremiseJSUrl | String | Direct URL to your self-hosted on-premise JS file (e.g. `https://your.domain/51Degrees.core.js`) | |
-| params.tdlUrl | String | URL of your Terms Document Locator (TDL), a document declaring the data usage terms under which the identifier is shared, per the [data-labels proposal](https://github.com/jwrosewell/data-labels/tree/main) and its [OpenRTB extension](https://github.com/jwrosewell/data-labels/blob/main/OpenRTB.md). The URL is added to the `ext.tdl` array of the `51d.es` eids entry, after the [Model Terms for Marketing](https://m4ow.uk/mtm/2.txt), which are always present. Omit if you do not publish a TDL; the module logs a warning and the entry names the Model Terms alone. | Worth setting. Without it the module warns on every load that `tdlUrl` is not configured and the entries name the Model Terms alone. |
+| params.tdlUrl | String | Worth setting. URL of your Terms Document Locator (TDL), a document declaring the data usage terms under which the identifier is shared, per the [data-labels proposal](https://github.com/jwrosewell/data-labels/tree/main) and its [OpenRTB extension](https://github.com/jwrosewell/data-labels/blob/main/OpenRTB.md). The URL is added to the `ext.tdl` array of the `51d.es` eids entry, after the [Model Terms for Marketing](https://m4ow.uk/mtm/2.txt), which are always present. Omit if you do not publish a TDL; the module logs a warning and the entry names the Model Terms alone. |
 
 ## Example 
 
